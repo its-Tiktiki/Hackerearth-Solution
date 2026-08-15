@@ -20,6 +20,8 @@ int main() {
 		for(auto s: students){
 			cout << s << " " << marks << endl;
 		}
+
+		//if first iterator 
 		if(current_it == m.begin()) break;
 		current_it--;
 	}
