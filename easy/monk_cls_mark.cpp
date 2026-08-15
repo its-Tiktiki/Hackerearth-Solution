@@ -12,6 +12,7 @@ int main() {
 		m[mark].insert(name);
 	}
 
+	// for reverse iteration
 	auto current_it = --m.end();
 	while(true){
 		auto &students = (*current_it).second;
